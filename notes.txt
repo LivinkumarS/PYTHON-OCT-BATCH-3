@@ -1,0 +1,17 @@
+Python:
+>> It is a high-level, interpreted, general-purpose programming language.
+
+human written code ---> machine code (00 1110001)
+
+Compilation---> translates entire code into machine code and executes it.
+Ex: Java, C, C++
+interpretation --> executes the program line by line
+Ex: python
+
+Print
+-------
+>> It is used to print a data at the output.
+print(data)
+
+>> Extension of a python file ---> .py 
+command to execute a python file ---> python filename.py
