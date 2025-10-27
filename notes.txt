@@ -1,5 +1,6 @@
 Python:
 >> It is a high-level, interpreted, general-purpose programming language.
+>> Dynamically Typed Language.
 
 human written code ---> machine code (00 1110001)
 
@@ -13,5 +14,52 @@ Print
 >> It is used to print a data at the output.
 print(data)
 
+Input  (always return a string)
+------
+>> To prompt data from user.
+input("String")
+
 >> Extension of a python file ---> .py 
 command to execute a python file ---> python filename.py
+
+Basic Syntax:
+-------------
+>> Case-sensitive (a is not A)
+>> Indentation is must (Indentation defines block of code).
+
+Comments 
+----------
+Single line --> # 
+Multiline --> '''  content '''
+
+Datatypes 
+----------
+Integer --> Whole Number --> -1,-22,0,1,2,3
+Float --> Decimal Number -> 1.1, 3.4
+String --> Collection of characters wrapped with either '' or "".
+ex: Hello, Hi
+Concatination --> attaching multiple strings together using +.
+str1+str2---> str1str2.
+Boolean --> True, False
+
+Variables 
+----------
+It stores data in memory with a name.
+varName=""
+
+naming rules 
+--------------
+>> case sensitive
+>> variable name should start with letter or '_'
+>> variable name can contain numbers
+>> should not use reserved keywords.
+>> it cannot contain white spaces.
+
+Type casting 
+-------------
+>> Converts Datatype into another.
+
+int(obj) --> convert into Integer
+str(obj)
+float(obj)
+bool(obj)
