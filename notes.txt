@@ -63,3 +63,64 @@ int(obj) --> convert into Integer
 str(obj)
 float(obj)
 bool(obj)
+
+Opearators 
+-----------
+>> These are symbols that perform opearations on values.
+
+2 * 4 = 8
+
+* ---> operator
+2,4 --> operands 
+
+Arithmetic Operators (numeric values)
+----------------------
++ --> addition
+- --> subtraction
+* --> multiplication
+/ --> division
+// --> Floor division
+% --> mod (reminder)
+** ---> Exponent (power)
+BODMAS --> Bracket OF(Order) DIV MUL ADD SUB
+
+Comparison Operators (Boolean)
+----------------------
+== -> equal
+!= -> not equal
+< --> lesser than
+> --> greater than
+<= --> lesser than or equal
+>= --> greater than or equal
+
+Logical Operators (Boolean)
+-----------------
+AND --> and --> when both are True
+OR  --> or  --> when any one is True
+NOT --> not --> invert the boolean
+
+bool1    bool2    AND    OR 
+True     True     True   True
+False    True     False  True
+True     False    False  True
+False    False    False  False
+
+Assignment Operator 
+--------------------
+= --> equal to (assign a value to variable)
++= --> add and assign
+-= --> sub and assign
+*= --> mul and assign
+/= --> div and assign
+//= -->floor div and assign
+%= --> mod and assign
+**= --> expo and assign
+
+Bitwise Operator
+-----------------
+AND --> & --> performs and operation between bits.
+OR --> | performs or operation between bits
+NOT --> ~ performs not operation with bits.(~n=-(n+1))
+X-OR --> ^ 
+right shift --> >> move the bits towards right for specified positions
+left shift --> << move the bits towards left for specified positions
