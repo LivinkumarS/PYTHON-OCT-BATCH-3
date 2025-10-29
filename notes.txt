@@ -124,3 +124,30 @@ NOT --> ~ performs not operation with bits.(~n=-(n+1))
 X-OR --> ^ 
 right shift --> >> move the bits towards right for specified positions
 left shift --> << move the bits towards left for specified positions
+
+Control flow
+--------------
+Conditional Cluase
+--------------------
+>> using Conditional Cluase we can make python to take decision according to the given condition.
+
+if condition:
+    block of code
+>> this block of code will be executed, when the condition is True.
+
+elif condition:
+    block of code 
+>> this block of code will be executed, when the condition is True.
+
+else:
+    block of code 
+executed --> when if block condition is False.
+
+Nested If block
+----------------
+if cond1:
+    if cond2:
+        block of code
+
+Loops 
+------
