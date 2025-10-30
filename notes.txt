@@ -125,6 +125,14 @@ X-OR --> ^
 right shift --> >> move the bits towards right for specified positions
 left shift --> << move the bits towards left for specified positions
 
+Indexing and Slicing 
+----------------------
+Indexing ---> Accessing one of the members of an object using the index number.
+Ex: String, List, Tuple....
+a="Hello world!" --> starts with 0
+a[5]=" "
+
+
 Control flow
 --------------
 Conditional Cluase
@@ -151,3 +159,38 @@ if cond1:
 
 Loops 
 ------
+>> It is a programming construct that allows a block of code to run repeatedly.
+
+While Loop
+----------
+>> Iteration count is not known
+Syntax 
+---------
+while condition:
+    block of code
+
+executes the code over and over again as long as the condition stays True.
+
+For loop 
+--------
+>> when iteration count is known
+>> It iterates over a sequence(Iterable Object).
+Syntax:
+for var in iterObj:
+    block of code 
+Range method --> Top create temporary iterable object 
+range(end) --> ex: range(100) --> [0,1,2,3,.......99]
+range(start,end) --> ex: range(1,10) -->[1,2,3,4...9]
+range(start,end,step(1)) --> ex: range(1,10,4)-->
+[1,5,9]
+
+Control Statements
+-------------------
+Break ---> Stops a loop
+Continue ---> Skips the current iteration
+
+1-200
+div by 3--> skip 
+div by 5--> skip 
+div by both(3,5) --> "buzz"
+1,2,4,7,8,11,13,14,"buzz",16,17,19,22,23,26,28,29,"buzz"..................200
