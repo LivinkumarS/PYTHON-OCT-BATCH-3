@@ -128,7 +128,7 @@ left shift --> << move the bits towards left for specified positions
 Indexing and Slicing 
 ----------------------
 Indexing ---> Accessing one of the members of an object using the index number.
-Ex: String, List, Tuple....
+Ex: String, List, Tuple, dict.
 a="Hello world!" --> starts with 0
 a[5]=" "
 
@@ -194,3 +194,52 @@ div by 3--> skip
 div by 5--> skip 
 div by both(3,5) --> "buzz"
 1,2,4,7,8,11,13,14,"buzz",16,17,19,22,23,26,28,29,"buzz"..................200
+
+Data Structures
+---------------
+It is an organized way to store, manage and retrive data efficiently.
+
+List (sequence)
+----
+syntax ---> [ele1, ele2, ele3....]
+>> Ordered, Mutable and it allows duplicate.
+
+In built methods
+------------------
+.append(ele) --> adds element at the end of list
+.extend([ele,ele..]) --> at the end
+.insert(pos, ele) --> adds ele at specified position
+.remove(ele) --> removes element from the list.(first occurance)
+.pop(ind) ---> removes element by it's index
+
+.index(ele) --> finds index number. (first occurance)
+.count(ele)  --> number of occurances of an element in a list.
+
+.sort() ---> arranges list in ascending order.
+.reverse() --> reverse a list
+
+Tuple  (sequence)
+------
+Syntax --> (ele,ele.....)
+It is ordered, immutable and allows duplicate.
+
+in built methods 
+----------------
+.index(ele) --> finds index number. (first occurance)
+.count(ele)  --> number of occurances of an element in a list.
+
+packing/unpacking 
+------------------
+person1=("allen",6)
+name,age=person1
+
+Set 
+------
+syntax --> {ele,ele......}
+>> Unordered, immutable and it will not allow duplicates.
+
+in built methods 
+-----------------
+.union(set) ---> union elements
+.intersection(set) ---> common elements
+.defference(set)  --> difference
