@@ -258,3 +258,34 @@ In built methods
 .key() --> get us list of keys
 .values() 
 .items() ---> every key-value pairs as a list. Ex: [(kay,val),(key,val)....]
+
+Function
+-----------
+>> It is a block of reusabe code that performs specific task.
+
+1) In built Functions 
+2) User defined functions 
+
+syntax: (defining and calling)
+--------
+def fnName():
+    block of code
+
+calling --> fnName()
+
+Parameters and Arguments
+------------------------
+P --> Variables inside function defenition.
+A --> The values we are passing for those variables
+
+Types of parameters 
+---------------------
+1) Positional arguements --> Order matters
+2) Keyword arguments ---> Order doesnot matter.
+3) Default arguement --> assigning default value to a parameter
+4) Variable length Arguments --> collecting multiple values as a tuple
+
+Return keyword 
+---------------
+>> to break the function
+>> to return a piece of data to the caller.
