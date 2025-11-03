@@ -46,20 +46,44 @@
 # print(s1.difference(s2))
 # print(s2.difference(s1))
 
-lis1=[
-    1,
-    2,
-    3,
-    4,
-    [
-        5,
-        6,
-        7,
-        [
-            "eight",
-            "nine",
-            "ten"
-        ]
-    ]
-]
-print(lis1[4][-1][-1][2])
+# lis1=[
+#     1,
+#     2,
+#     3,
+#     4,
+#     [
+#         5,
+#         6,
+#         7,
+#         [
+#             "eight",
+#             "nine",
+#             "ten"
+#         ]
+#     ]
+# ]
+# print(lis1[4][-1][-1][2])
+
+person1={
+    "name":"Joseph Vijay",
+    "age":51,
+    "latest movie":"GOAT",
+    "isMarried":True
+}
+
+
+for i in person1:
+    print(person1[i])
+
+# person1["no of movies"]=68
+# del person1["latest movie"]
+# person1["name"]="Vijay"
+
+# print(person1)
+
+# print(person1.keys())
+# print(person1.values())
+
+# print(person1.items())
+
+

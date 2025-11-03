@@ -243,3 +243,18 @@ in built methods
 .union(set) ---> union elements
 .intersection(set) ---> common elements
 .defference(set)  --> difference
+
+Dictionary 
+-----------
+>> Collection of key-value pairs.
+syntax ---> {key1:val1, key2:val2.......}
+values can be in any datatype.
+>> Mutable
+
+del (key) ---> remove an existing key-value.
+
+In built methods 
+----------------
+.key() --> get us list of keys
+.values() 
+.items() ---> every key-value pairs as a list. Ex: [(kay,val),(key,val)....]
