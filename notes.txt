@@ -335,3 +335,16 @@ Scope
 Local Scope --> Variable defined inside a function(It can be accessed only in that function)
 
 Global Scope --> Variable defined outside of any function (It can be accessed anywhere)
+
+
+*
+**
+***
+****
+*****
+
+*   *
+ * *
+  *
+ * *
+*   *

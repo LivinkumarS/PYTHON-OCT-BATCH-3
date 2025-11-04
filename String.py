@@ -43,8 +43,27 @@
 
 # Palindrome
 
-a = input("Enter a word or number: ")
-if a == a[::-1]:
-    print("It is a palindrome")
-else:
-    print("It is not a palindrome")
+# a = input("Enter a word or number: ")
+# if a == a[::-1]:
+#     print("It is a palindrome")
+# else:
+#     print("It is not a palindrome")
+    
+# for i in range(1,6):
+#     for j in range(1,6):
+#         print(i,j)
+
+# i=1,2,3,4,5
+# j=1
+
+# 1,1
+# 1,2
+# 1,3
+# 1,4
+# 1,5
+# 2,1
+# 2,2
+# .
+# .
+# 2,5
+
