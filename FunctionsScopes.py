@@ -39,8 +39,20 @@
 # a=printSteps()
 # print(a)
 
-def product(a,b):
-    print(a*b)
-    return a*b
+# def product(a,b):
+#     print(a*b)
+#     return a*b
 
-print(product(9,10))
+# print(product(9,10))
+
+# Scopes
+
+a=10
+
+def dummy():
+    a=15
+    print("The value of a from inside of the function:",a)
+
+dummy()
+
+print("The value of a from outside of the function:",a)

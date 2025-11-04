@@ -63,6 +63,11 @@ int(obj) --> convert into Integer
 str(obj)
 float(obj)
 bool(obj)
+list()
+tuple()
+set()
+dict()
+
 
 Opearators 
 -----------
@@ -289,3 +294,11 @@ Return keyword
 ---------------
 >> to break the function
 >> to return a piece of data to the caller.
+
+Scope
+-------
+>> It is a region of program where a variable can be accessed.
+
+Local Scope --> Variable defined inside a function(It can be accessed only in that function)
+
+Global Scope --> Variable defined outside of any function (It can be accessed anywhere)

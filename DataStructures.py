@@ -64,16 +64,16 @@
 # ]
 # print(lis1[4][-1][-1][2])
 
-person1={
-    "name":"Joseph Vijay",
-    "age":51,
-    "latest movie":"GOAT",
-    "isMarried":True
-}
+# person1={
+#     "name":"Joseph Vijay",
+#     "age":51,
+#     "latest movie":"GOAT",
+#     "isMarried":True
+# }
 
 
-for i in person1:
-    print(person1[i])
+# for i in person1:
+#     print(person1[i])
 
 # person1["no of movies"]=68
 # del person1["latest movie"]
@@ -87,3 +87,8 @@ for i in person1:
 # print(person1.items())
 
 
+# lis1=[34,43,56,78]
+# print(set(lis1))
+
+a=[1,1,2,3,3,2,4,5,6,6,7,4,7,3]
+print(list(set(a)))
