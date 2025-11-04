@@ -36,10 +36,43 @@ Datatypes
 ----------
 Integer --> Whole Number --> -1,-22,0,1,2,3
 Float --> Decimal Number -> 1.1, 3.4
+
 String --> Collection of characters wrapped with either '' or "".
 ex: Hello, Hi
-Concatination --> attaching multiple strings together using +.
+
 str1+str2---> str1str2.
+
+String Operation
+-----------------
+Concatination --> attaching multiple strings together using +.
+Repetition --> Repeating a string using *.
+Membership operations--> IN, NOT IN 
+
+String Formatting
+-------------------
+f" {var} {var} "
+
+In built Objects 
+-------------------
+.upper()
+.lower()
+.title()
+.capitalize()
+
+.strip() --> remove spaces at both ends
+.lstrip()
+.rstrip()
+
+.split() --> string --> list
+.join()  --> list --> string
+
+.find(subString) --> index of given subStr. returns -1 when the subStr is not found.
+.count(subStr) --> finds no of occurances
+
+isalpha() 
+isdigit()
+isalnum()
+
 Boolean --> True, False
 
 Variables 
