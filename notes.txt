@@ -336,15 +336,30 @@ Local Scope --> Variable defined inside a function(It can be accessed only in th
 
 Global Scope --> Variable defined outside of any function (It can be accessed anywhere)
 
+Errors
+-------
+Errors are problems that occur when a program runs abnormally. erro will stop the executing.
 
-*
-**
-***
-****
-*****
+Types
+------
+Syntax Error 
+---------------
+>> It occurs when the code contains grammaritical error.
+>> python can't even interpret the code.
 
-*   *
- * *
-  *
- * *
-*   *
+Ex: IndendationError, SyntaxError.....
+
+Runtime Error (Exceptions)
+--------------------------
+>> Occurs while the program is running
+Ex: ZeroDivisionError, TypeError, ValueError..........
+
+
+Exception Handling 
+-------------------
+try:
+    block code
+except nameOfTheError:
+    handling block
+finally:
+    block code
