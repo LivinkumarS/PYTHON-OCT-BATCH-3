@@ -363,3 +363,22 @@ except nameOfTheError:
     handling block
 finally:
     block code
+
+File Handling 
+--------------
+To Open a file ---> open("path of the file", mode)
+To Close a file -->file.close()
+
+To read the content --> .read()
+To read the content line by line --> .readline()
+To read the content line by line --> .readlines().[line1,line2]
+
+To over write the content --> .write(content)
+To add the content --> .write(content)
+
+
+Mode 
+-----
+Read --> 'r'
+Write --> 'w'
+Append --> 'a'
