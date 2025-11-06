@@ -382,3 +382,25 @@ Mode
 Read --> 'r'
 Write --> 'w'
 Append --> 'a'
+
+
+OOP
+-----
+Object Oriented Programming 
+
+>> It is a programming pattern that structures code around objects and classes.
+
+
+blue print ---> multiple mobile -->  screen, capacity, battery --> power on, power off
+bag ---> capacity, no of containers --> open, close
+
+class ------------>multiple obj --> attributes --> method
+(blue print)
+
+class --> Blueprint 
+Object --> Instance of a class
+Attributes --> Variables in a class 
+Methods ---> Functions defined in a class
+Constructor ---> It is a special method used to initiate a class. __init__
+
+

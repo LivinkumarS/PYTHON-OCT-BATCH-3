@@ -5,4 +5,4 @@ print(1000)
 Print(19) '''
 
 
-print(123)
+print(123) #from the class 'int'
